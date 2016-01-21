@@ -47,3 +47,25 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+h1.name {
+  text-align: center;
+  font-family: Futura, sans-serif;
+  background: -webkit-linear-gradient(transparent, transparent), url("http://media.giphy.com/media/n5xaznEHC98ru/giphy.gif") no-repeat center;
+  background-size: auto 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  [itemprop=givenName] {
+    display: block;
+    font-size: 10vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.15;
+  }
+  [itemprop=familyName] {
+    display: block;
+    font-size: 5vw;
+    line-height: 1;
+  }
+}
